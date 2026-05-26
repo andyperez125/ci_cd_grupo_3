@@ -12,5 +12,5 @@ jobs:
 
     steps:
       - name: mostar saludos 
-        run: echo "hola desde github actions"
+        run: echo "hola desde github  actions"
       
