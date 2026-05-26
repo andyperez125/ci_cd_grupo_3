@@ -1,0 +1,16 @@
+name: saludo
+
+on:
+  push:
+    branches:
+      -main
+
+
+jobs:
+  saludar-jobs:
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: mostar saludos cancel-timeout-minutes: 
+      run: echo "hola desde github actions"
+      
