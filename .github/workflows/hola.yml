@@ -8,9 +8,9 @@ on:
 
 jobs:
   saludar-jobs:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: mostar saludos cancel-timeout-minutes: 
-      run: echo "hola desde github actions"
+    steps:
+      - name: mostar saludos 
+        run: echo "hola desde github actions"
       
